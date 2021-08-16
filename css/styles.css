@@ -1,0 +1,127 @@
+nav
+{
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.jumbotron
+{
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/photos/back.jpg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius:5px;
+} 
+.my-content
+{
+  font-family: 'Nunito', sans-serif;
+font-size: 20px;
+}
+.my-content h1
+{
+color: beige;
+}
+body
+{
+padding: 50px 0px 0px 0px;
+z-index: 0;
+}
+.navbar-dark
+{
+  background-color: #512dA8;
+}
+.tab-content
+{
+  border-left:1px solid #DDD;
+  border-right:1px solid #DDD;
+  border-bottom:1px solid #DDD;
+  padding: 10px;
+}
+.myservices
+{
+  font-family: 'Rubik', sans-serif;
+}
+.myservices h1{
+  font-weight: bold;
+  font-size:50px;
+}
+.myservices p
+{
+  color:#6c757d;
+}
+.rowsetting
+{
+  margin-top:40px;
+}
+.my-box
+{
+background-color:gainsboro;
+border-radius: 25px;  
+margin:20px auto;
+padding:10px;
+}
+.my-box h2
+{
+  margin-top:10px;
+  font-weight:bold;
+  font-size:20px;
+}
+.my-box p
+{
+  color: #6c757d;
+  padding: 10px;
+}
+.imgsetting
+{
+  padding-top: 30px;
+  margin: auto;
+  height: 100px;
+  width:100px;
+}
+.client-pic
+{
+  width:570px;
+  height:300px;
+  border-radius:5px;
+}
+.aboutus
+{
+  margin-top:20px;
+  padding-top:25px;
+  padding-left:10px;
+}
+.about-content
+{
+  background-color:black;
+  border-radius: 24px;
+  padding:40px;
+}
+.about-content h1{
+  font-size:50px;
+  font-weight: normal;
+  font-family: 'Nunito', sans-serif;
+}
+.about-content p
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  color:#eaeff3;
+}
+.about-content ul
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  color:#eaeff3;
+}
+.footer{
+  background: #076585;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-top: 40px;  
+padding-top:20px;
+}
+.address
+{
+color: rgb(255, 255, 255);
+}

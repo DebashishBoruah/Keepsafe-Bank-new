@@ -1,0 +1,28 @@
+nav
+{
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.my-nav
+{
+    margin-left:5px;
+}
+.my-box
+{
+    margin: 110px auto;
+}
+.my-box h1
+{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold; 
+}
+form
+{
+    margin-top:40px;
+}
+footer
+{
+    margin-top:-50px;
+    font-family: 'Nunito', sans-serif;
+}
