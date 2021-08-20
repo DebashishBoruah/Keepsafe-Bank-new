@@ -1,12 +1,12 @@
 nav
 {
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  background: #000046; 
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+  background: linear-gradient(to right, #1CB5E0, #000046); 
 }
 .jumbotron
 {
-background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/photos/back.jpg);
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../keepsafeBank/photos/background.jpg');
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -15,12 +15,38 @@ border-radius:5px;
 } 
 .my-content
 {
-  font-family: 'Nunito', sans-serif;
-font-size: 20px;
+font-family: 'Nunito', sans-serif;
 }
 .my-content h1
 {
 color: beige;
+font-size:45px;
+}
+.my-content p
+{
+margin: 20px auto;
+color: beige;
+font-size:18px;
+}
+.my-button
+{
+ border: 0;
+ background: #f46b45;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+ font-size: 15px;
+ letter-spacing: 1.2px;
+  
+}
+.hellobtn
+{
+  background: #f46b45;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.my-button a{
+  font-family: 'Montserrat', sans-serif;
 }
 body
 {
@@ -115,9 +141,9 @@ padding:10px;
   color:#eaeff3;
 }
 .footer{
-  background: #076585;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #283048;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 margin-top: 40px;  
 padding-top:20px;
 }

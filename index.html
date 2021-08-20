@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
 <link href="css\styles.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <title>KeepSafe Bank</title>
     </head>
     <body>
@@ -21,7 +23,7 @@
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand mr-auto" href="#">KeepSafe Bank</a>
+              <a class="navbar-brand mr-auto" href="#"><img src="photos/logo.png" width="200" height="200" class="img-fluid"></a>
               <div class="collapse navbar-collapse" id="Navbar">
                   <ul class="navbar-nav ml-auto">
                       <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
@@ -36,7 +38,7 @@
              <div class="container text-white my-content">
                         <h1 class="">Get your Loan Now</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, quas dolorum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos dolore illo in reprehenderit, adipisci asperiores, animi veritatis optio nobis doloremque?</p>
-                        <button class="btn btn-primary" type="button">Get started</button>
+                        <button class="btn my-button btn-lg" type="button"><a href="user.php" class="text-white nav-link">Register</a></button>
              </div>
         </header>
         <hr class="align-self-center" style="height:2px;border-width:0;color:gray;background: #4568DC;  /* fallback for old browsers */
@@ -51,9 +53,9 @@
                     <div class="imgsetting d-block">
                         <i class="fa fa-user-circle-o fa-3x text-black" aria-hidden="true"></i>
                     </div>
-                    <h2>Create User</h2>
+                    <h2>View All User</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="btn btn-danger"><a href="createUser.html" class="text-white">Create</a></button>
+                    <button class="btn border-0 hellobtn"><a href="viewuser.php" class="text-white nav-link">View User</a></button>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-4 col-10 d-block my-box">
                     <div class="imgsetting d-block">
@@ -61,7 +63,7 @@
                     </div>
                     <h2>Transfer Money</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="btn btn-danger"><a href="#" class="text-white">Transfer</a></button>
+                    <button class="btn border-0 hellobtn"><a href="transfermoney.php" class="text-white nav-link">Transfer</a></button>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-4 col-10 d-block my-box">
                     <div class="imgsetting d-block">
@@ -69,7 +71,7 @@
                     </div>
                     <h2>Transaction History</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="btn btn-danger"><a href="#" class="text-white">History</a></button>
+                    <button class="btn border-0 hellobtn"><a href="transactionhistory.php" class="text-white nav-link">History</a></button>
                 </div>
             </div>
             <hr class="align-self-center" style="height:2px;border-width:0;color:gray;background: #4568DC;  /* fallback for old browsers */
@@ -77,7 +79,7 @@
             background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             ;width:60px;border-radius:10px;">
         <section class="aboutus">
-            <div class="container about-content">
+            <div class="container about-content" data-aos="zoom-in-up">
                 <div class="row">
                     <div class="col-12 col-sm-6">
                         <img src="photos/choose.jpg" alt="client" class="img-fluid client-pic">
@@ -100,25 +102,25 @@
     <footer class="footer">
         <div  class="container">
             <div class="row">             
-                <div class="col-4 offset-1 col-sm-2">
+                <div class="col-4 offset-1 col-sm-2 text-white">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-dark">Home</a></li>
-                        <li><a href="aboutus.html" class="text-dark">About</a></li>
-                        <li><a href="#" class="text-dark">Services</a></li>
-                        <li><a href="#" class="text-dark">Contact Us</a></li>
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">About</a></li>
+                        <li><a href="#" class="text-white">Services</a></li>
+                        <li><a href="#" class="text-white">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-7 col-sm-5">
+                <div class="col-7 col-sm-5 text-white">
                     <h5>Our Address</h5>
                     <address class="address">
 		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <i class="fa fa-phone fa-lg text-dark"></i>: +852 1234 5678<br>
-                      <i class="fa fa-fax fa-lg text-dark"></i>: +852 8765 4321<br>
+		              Clear Water Bay,Guwahati<br>
+		              ASSAM,INDIA<br>
+		              <i class="fa fa-phone fa-lg text-dark"></i>: +91 9987654311<br>
+                      <i class="fa fa-fax fa-lg text-dark"></i>: +91 8767654332<br>
                       <i class="fa fa-envelope fa-lg text-dark"></i>: 
-                      <a href="mailto:confusion@food.net" class="text-white ">confusion@food.net</a>
+                      <a href="mailto:akaifoundation@gmail.com" class="text-white ">akaifoundation@gmail.com</a>
 
 		           </address>
                 </div>
@@ -135,7 +137,7 @@
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2021 Debashish Boruah</p>
+                    <p class="text-white">© Copyright 2021 Debashish Boruah</p>
                 </div>
            </div>
         </div>
@@ -144,5 +146,9 @@
     <script src="jquery/dist/jquery.slim.min.js"></script>
     <script src="popper.js/dist/umd/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     </body>
 </html>
